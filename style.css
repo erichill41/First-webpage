@@ -1,0 +1,45 @@
+/* styling the header and footer */
+
+header, footer {
+  text-align: center;
+  color: #96e6b3;
+  font-family: "Comic Sans MS";
+  margin: 20px;
+  padding: 0px;
+}
+
+nav {
+  font-size: 20px;
+  padding: 2px;
+  margin-bottom: 2px;
+}
+
+h1 {
+  font-size: 52px;  
+}
+
+body {
+  text-align: center;
+  background-color:lightgray;
+  color:#02182B;
+  font-family: "Comic Sans MS";
+}
+
+li {
+  list-style-position: inside;
+}
+
+/* styling the links */
+
+a:link    { color:darkslategrey;  }
+a:visited { color:#02182B;   }
+a:hover   { color:royalblue; }
+a:active  { color:black;  }
+
+/* Want image to be 500px high by 50% of page wide */
+
+img {
+  height: 500px;
+  width: 50%;
+  border-radius: 50%;
+}
